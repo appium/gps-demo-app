@@ -1,0 +1,22 @@
+{
+  "name": "gps-demo-app",
+  "version": "1.0.0",
+  "description": "Android GPS demo from http://www.impressive-artworx.de/tutorials/android/gps_tutorial_1.zip",
+  "main": "bin/gpsDemo-debug.apk",
+  "scripts": {
+    "prepublish": "android update project --subprojects --target android-19 --path . --name gpsDemo && ant clean debug"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/appium/gps-demo-app.git"
+  },
+  "keywords": [
+    "appium",
+    "test",
+    "app",
+    "gps",
+    "android"
+  ],
+  "author": "http://www.impressive-artworx.de",
+  "homepage": "https://github.com/appium/gps-demo-app"
+}
