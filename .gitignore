@@ -12,7 +12,8 @@ tests/proguard-project.txt
 tests/project.properties
 out
 .settings/
-*.apk
+app/*.apk
+*.log
 lint.xml
 .idea/*
 .DS_Store
