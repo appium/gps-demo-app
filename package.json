@@ -1,6 +1,6 @@
 {
   "name": "gps-demo-app",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "Android GPS demo from http://www.impressive-artworx.de/tutorials/android/gps_tutorial_1.zip",
   "main": "index.js",
   "scripts": {
